@@ -13,5 +13,4 @@ int main(void)
 		
 		write(2, str1, 59);
 		return (1);
-
 }
