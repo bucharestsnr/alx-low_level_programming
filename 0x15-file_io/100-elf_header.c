@@ -96,7 +96,7 @@ void print_osabi(char *ptr)
 		printf("UNIX - Solaris\n");
 	else
 		printf("<unknown: %x>\n", osabi);
-		printf("  ABI Version:                       %d\n", ptr[8]);
+	printf("  ABI Version:                       %d\n", ptr[8]);
 }
 
 /**
@@ -145,7 +145,7 @@ void print_magic(char *ptr)
 	printf("  Magic:  ");
 	for (bytes = 0; bytes < 16; bytes++)
 		printf(" %02x", ptr[bytes]);
-		printf("\n");
+	printf("\n");
 }
 
 /**
